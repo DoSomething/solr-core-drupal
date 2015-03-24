@@ -300,7 +300,7 @@
       -->
     <autoCommit>
       <maxDocs>${solr.autoCommit.MaxDocs:10000}</maxDocs>
-      <maxTime>${solr.autoCommit.MaxTime:120000}</maxTime>
+      <maxTime>${solr.autoCommit.MaxTime:10000}</maxTime>
     </autoCommit>
 
     <!-- softAutoCommit is like autoCommit except it causes a
